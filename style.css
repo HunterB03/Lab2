@@ -1,0 +1,39 @@
+body  {
+  background-color: dimgray;
+}
+
+.right-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: black;
+    padding-top: 20px;
+    width: 250px;
+    text-align: center;
+    
+    
+   
+  }
+  
+  .right-nav .nav-link {
+    padding: 10px 20px;
+    color: white;
+    
+  }
+  
+  .right-nav .nav-link.active {
+    color: teal;
+  }
+
+  .right-nav .nav-item.social-item a i {
+    color: white;
+    font-size: 25pt;
+    padding-left: 10%;
+    
+  }
+
+  a {
+    text-decoration:none;
+    color: inherit;
+ }
